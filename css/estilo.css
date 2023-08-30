@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: white;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.menu {
+    grid-area: nav;
+}
+
+
+li {
+    display: inline;
+}
+
+.misiones {
+    border: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.rostro {
+    display: inline;
+    height: 150px;
+    width: 150px;
+    border: 2px black solid;
+    border-radius: 2px black solid;
+}
+
+.rostros {
+    display: inline;
+    height: 150px;
+    width: 150px;
+    border: 2px black solid;
+    border-radius: 2px black solid;
+}
+
+.testimonio {
+    display: inline;
+}
+
+.testimonios {
+    display: inline;
+}
+
+.fondo {
+    background-color: lightsteelblue;
+}
+
+.títulos {
+    font: bolder;
+    font-size: 30px;
+    color: midnightblue;
+}
+
+.disciplina {
+    display: inline;
+    height: 150px;
+    width: 150px;
+}
+
+.ropas {
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
