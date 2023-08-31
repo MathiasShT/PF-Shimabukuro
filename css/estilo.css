@@ -4,6 +4,7 @@
 }
 .navbar {
     background-color: white;
+    border-bottom: 2px blue solid;
 }
 
 .logo {
@@ -29,16 +30,12 @@ li {
     display: inline;
     height: 150px;
     width: 150px;
-    border: 2px black solid;
-    border-radius: 2px black solid;
+    border: 1px black solid;
+    border-radius: 1px black solid;
 }
 
-.rostros {
-    display: inline;
-    height: 150px;
-    width: 150px;
-    border: 2px black solid;
-    border-radius: 2px black solid;
+.card {
+    border: 2px navy solid;
 }
 
 .testimonio {
@@ -74,4 +71,9 @@ footer {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    align-items: flex-end;
+}
+
+.mapa {
+    border: 2px black solid;
 }
