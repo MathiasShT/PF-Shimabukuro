@@ -48,6 +48,8 @@ li {
 }
 
 .program {
+    display: flex;
+    justify-content: center;
     padding: 1px;
     border: 1px navy solid;
 }
@@ -82,6 +84,14 @@ li {
     display: inline;
 }
 
+.product {
+    margin: 3px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+}
 footer {
     display: flex;
     justify-content: center;
