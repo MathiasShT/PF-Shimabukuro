@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+main {
+    overflow: auto;
+    padding: 0;
+}
+
 .navbar {
     background-color: white;
     border-bottom: 2px blue solid;
@@ -12,11 +25,6 @@
     width: 250px;
 }
 
-.menu {
-    grid-area: nav;
-}
-
-
 li {
     display: inline;
 }
@@ -26,23 +34,29 @@ li {
     margin: 5px;
     padding: 5px;
 }
+
 .rostro {
     display: inline;
+    display: flex;
+    align-items: center;
     height: 150px;
     width: 150px;
     border: 1px black solid;
     border-radius: 1px black solid;
+    padding: 0px 5px;
+    margin-left: 10px;
 }
 
-.card {
-    border: 2px navy solid;
+.program {
+    padding: 1px;
+    border: 1px navy solid;
+}
+
+.testim {
+    border: 1px blue solid;
 }
 
 .testimonio {
-    display: inline;
-}
-
-.testimonios {
     display: inline;
 }
 
@@ -52,14 +66,14 @@ li {
 
 .títulos {
     font: bolder;
-    font-size: 30px;
+    font-size: 40px;
     color: midnightblue;
 }
 
 .disciplina {
     display: inline;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 
 .ropas {
@@ -67,11 +81,14 @@ li {
     width: 200px;
     display: inline;
 }
+
 footer {
     display: flex;
     justify-content: center;
+    align-items: baseline;
     font-weight: bold;
-    align-items: flex-end;
+    position: relative;
+    bottom: 0;
 }
 
 .mapa {
