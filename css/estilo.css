@@ -78,20 +78,37 @@ li {
     width: 120px;
 }
 
+.tituloRopa {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .ropas {
     height: 200px;
     width: 200px;
     display: inline;
+    margin: 5px;
 }
 
 .product {
     margin: 3px;
+    border: 1px blue solid;
+    border-radius: 2px;
 }
 
 .productos {
     display: flex;
     justify-content: center;
 }
+
+.btn {
+    color: lightseagreen;
+    background-color: black;
+    display: flex;
+    align-items: end;
+    bottom: 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
