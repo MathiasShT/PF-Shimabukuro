@@ -25,6 +25,10 @@ main {
     width: 250px;
 }
 
+.menu {
+    font-size: 20px;
+    font-weight: bold;;
+}
 li {
     display: inline;
 }
@@ -74,8 +78,8 @@ li {
 
 .disciplina {
     display: inline;
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .tituloRopa {
