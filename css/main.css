@@ -1,3 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.fondo {
+  font-family: "Poppins", sans-serif;
+  background-color: #B2BABB;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 3px #2471A3;
+  background-image: linear-gradient(to left, #777EB0, white);
+}
+.navbar .logo {
+  height: 150px;
+  width: 280px;
+}
+.navbar .menu {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.texto {
+  margin-bottom: 90px;
+  padding-bottom: 90px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+footer li {
+  display: inline;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+.fondo{
+    font-family: $mainFont;
+    background-color: $mainColor;
+    }
+    
+.navbar{
+    background-color: $white;
+    border-bottom: 3px $secondaryColor;
+    background-image: linear-gradient(to left, #777EB0, $white);
+    .logo{
+        height: 150px;
+        width: 280px;
+    }
+    .menu{
+        font-family: $secondaryFont;
+        font-size: $fontMd;
+        font-weight: bold;
+    }
+}
+
+.texto {
+    margin-bottom: 90px;
+    padding-bottom: 90px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    li{
+        display: inline;
+    }
+}

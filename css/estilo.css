@@ -15,24 +15,6 @@ main {
     padding: 0;
 }
 
-.navbar {
-    background-color: white;
-    border-bottom: 2px blue solid;
-}
-
-.logo {
-    height: 120px;
-    width: 250px;
-}
-
-.menu {
-    font-size: 20px;
-    font-weight: bold;;
-}
-li {
-    display: inline;
-}
-
 .misiones {
     border: 5px;
     margin: 5px;
