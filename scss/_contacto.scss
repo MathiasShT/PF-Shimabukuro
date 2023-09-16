@@ -1,33 +1,53 @@
 
-
+@media screen and (min-width: 992px){
 .contacto{
     display: grid;
-    grid-template-rows: 10% 10% 70% 10%;
-    grid-template-columns: 50% 50%;    
+    grid-template-rows: 10% 10% 60% 10%;
+    grid-template-columns: 50% 50%;  
+    justify-content: space-evenly;  
     grid-template-areas: 
     "titCont titCont"
     "ubicacion consultas"
     "mapa formulario"
     "mapa formulario"
-    "dirección formulario";
+    "direccion formulario";
+        
     h1{
         grid-area: titCont;
     }
         .ubicacion{
             grid-area: ubicacion;
+            justify-self: start;
         }
     .mapa{
         grid-area: mapa;
         display: inline;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        justify-self: start;
     }
-    .dirección{
-        grid-area: dirección;
+    .direccion{
+        grid-area: direccion;
     }
         .consultas{
             grid-area: consultas;
+            justify-self: start;
         }
     .formulario{
         grid-area: formulario;
         display: inline;
+        justify-self: start;
     }
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+
+}
+}
+
+@media screen and (max-width) {
+    .contacto{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
 }

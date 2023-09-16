@@ -8,7 +8,7 @@
     border-bottom: 3px $secondaryColor;
     background-image: linear-gradient(to left, #777EB0, $white);
     .logo{
-        height: 150px;
+        height: 130px;
         width: 280px;
     }
     .menu{
@@ -16,11 +16,6 @@
         font-size: $fontMd;
         font-weight: bold;
     }
-}
-
-.texto {
-    margin-bottom: 90px;
-    padding-bottom: 90px;
 }
 
 footer{
