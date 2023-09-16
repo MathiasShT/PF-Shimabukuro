@@ -1,0 +1,33 @@
+
+
+.contacto{
+    display: grid;
+    grid-template-rows: 10% 10% 70% 10%;
+    grid-template-columns: 50% 50%;    
+    grid-template-areas: 
+    "titCont titCont"
+    "ubicacion consultas"
+    "mapa formulario"
+    "mapa formulario"
+    "dirección formulario";
+    h1{
+        grid-area: titCont;
+    }
+        .ubicacion{
+            grid-area: ubicacion;
+        }
+    .mapa{
+        grid-area: mapa;
+        display: inline;
+    }
+    .dirección{
+        grid-area: dirección;
+    }
+        .consultas{
+            grid-area: consultas;
+        }
+    .formulario{
+        grid-area: formulario;
+        display: inline;
+    }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .fondo {
   font-family: "Poppins", sans-serif;
@@ -30,6 +31,33 @@ footer {
   font-weight: bold;
 }
 footer li {
+  display: inline;
+}
+
+.contacto {
+  display: grid;
+  grid-template-rows: 10% 10% 70% 10%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "titCont titCont" "ubicacion consultas" "mapa formulario" "mapa formulario" "dirección formulario";
+}
+.contacto h1 {
+  grid-area: titCont;
+}
+.contacto .ubicacion {
+  grid-area: ubicacion;
+}
+.contacto .mapa {
+  grid-area: mapa;
+  display: inline;
+}
+.contacto .dirección {
+  grid-area: dirección;
+}
+.contacto .consultas {
+  grid-area: consultas;
+}
+.contacto .formulario {
+  grid-area: formulario;
   display: inline;
 }
 
