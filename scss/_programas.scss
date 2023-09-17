@@ -1,0 +1,14 @@
+.deportes{
+    display: flex;
+    justify-content: center;
+.program{
+    display: flex;
+    justify-content: center;
+    border: 1px $alternativo solid;
+    .disciplina{
+        display: inline;
+        height: 100px;
+        width: 100px;
+    }
+}
+}

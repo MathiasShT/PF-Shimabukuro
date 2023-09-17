@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .fondo {
-  font-family: "Poppins", sans-serif;
   background-color: #B2BABB;
 }
 
@@ -17,6 +16,17 @@
   font-family: "Gill Sans", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  color: #020B47;
+}
+.navbar .titulos {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 40px;
+  color: #020B47;
+}
+.navbar .subtitulos {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  color: #1C2833;
 }
 
 footer {
@@ -28,9 +38,43 @@ footer li {
   display: inline;
 }
 
+.principal {
+  margin-bottom: 75px;
+  padding-bottom: 75px;
+}
+.principal .testim {
+  border: 1px rgb(25, 25, 112) solid;
+}
+.principal .testim .rostro {
+  display: inline;
+  display: flex;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border: 1px black solid;
+  border-radius: 3px black solid;
+  padding: 0px 5px;
+  margin-left: 10px;
+}
+
 .texto {
   margin-bottom: 90px;
   padding-bottom: 90px;
+}
+
+.deportes {
+  display: flex;
+  justify-content: center;
+}
+.deportes .program {
+  display: flex;
+  justify-content: center;
+  border: 1px rgb(25, 25, 112) solid;
+}
+.deportes .program .disciplina {
+  display: inline;
+  height: 100px;
+  width: 100px;
 }
 
 @media screen and (min-width: 992px) {

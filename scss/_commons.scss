@@ -1,5 +1,4 @@
 .fondo{
-    font-family: $mainFont;
     background-color: $mainColor;
     }
     
@@ -15,8 +14,21 @@
         font-family: $secondaryFont;
         font-size: $fontMd;
         font-weight: bold;
+        color: $headLineColor;
     }
+    .titulos{
+        font-family: $secondaryFont;
+        font-size: $fontLg;
+        color: $headLineColor;
+    }
+        .subtitulos{
+            font-family: $secondaryFont;
+            font-size: $fontMd;
+            color: $titleColor;
+        }
 }
+
+
 
 footer{
     display: flex;

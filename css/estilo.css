@@ -1,25 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-}
-
-main {
-    overflow: auto;
-    padding: 0;
-}
-
-.misiones {
-    border: 5px;
-    margin: 5px;
-    padding: 5px;
-}
 
 .rostro {
     display: inline;
@@ -89,15 +69,6 @@ main {
     background-color: black;
     display: flex;
     align-items: end;
-    bottom: 0;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    font-weight: bold;
-    position: relative;
     bottom: 0;
 }
 
