@@ -1,40 +1,51 @@
-.fondo{
+.fondo {
     background-color: $mainColor;
-    }
-    
-.navbar{
+}
+
+.navbar {
     background-color: $white;
     border-bottom: 3px $secondaryColor;
     background-image: linear-gradient(to left, #777EB0, $white);
-    .logo{
+    .botoNav{
+        border: 1px;
+        padding: 5px;
+    }
+    .logo {
         height: 130px;
         width: 280px;
     }
-    .menu{
+
+    .menu {
         font-family: $secondaryFont;
         font-size: $fontMd;
         font-weight: bold;
         color: $headLineColor;
     }
-    .titulos{
-        font-family: $secondaryFont;
-        font-size: $fontLg;
-        color: $headLineColor;
-    }
-        .subtitulos{
-            font-family: $secondaryFont;
-            font-size: $fontMd;
-            color: $titleColor;
-        }
+}
+
+.titulos {
+    font-family: $secondaryFont;
+    font-size: $fontLg;
+    color: $headLineColor;
+    font-weight: bold;
+}
+
+.subtitulos {
+    font-family: $secondaryFont;
+    font-size: $fontMd;
+    color: $titleColor;
+    font-weight: bold;
 }
 
 
 
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    li{
+
+    li {
         display: inline;
     }
 }

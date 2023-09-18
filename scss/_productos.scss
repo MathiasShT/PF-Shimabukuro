@@ -1,0 +1,31 @@
+.productos{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    .product{
+        margin: 2px;
+        border: 1px $alternativo solid;
+        border-radius: 2px;
+        .ropas{
+            height: 200px;
+            width: 200px;
+            margin-top: 5px;
+        }
+        .tarjCompra{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: flex-end;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: $secondaryColor;
+            background-color: $black;
+            
+        }
+    }
+}
