@@ -79,6 +79,7 @@ footer li {
   display: flex;
   justify-content: center;
   margin-left: 1px;
+  margin-bottom: 20px;
 }
 .deportes .program {
   display: flex;
@@ -113,6 +114,14 @@ footer li {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-end;
+}
+.productos .product .tarjCompra .card-text {
+  max-height: 3.6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .productos .product .btn {
   display: flex;
