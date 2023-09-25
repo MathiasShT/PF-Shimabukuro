@@ -1,45 +1,53 @@
-body{
+body {
     overflow-x: hidden;
     box-sizing: border-box;
 }
 
 .fondo {
-    background-color: $mainColor;
+    background-image: linear-gradient(to left, #5f87a0, #e1eefc);
 }
 
 .navbar {
-    background-color: $white;
-    border-bottom: 3px $secondaryColor;
-    background-image: linear-gradient(to left, #777EB0, $white);
-    .botoNav{
+    border-bottom: 1px $black solid;
+    background-image: linear-gradient(to left, #5f87a0, #e1eefc);
+
+    .botoNav {
         border: 1px;
         padding: 5px;
     }
+
     .logo {
-        height: 130px;
-        width: 280px;
+        height: 70px;
+        width: 190px;
+        margin-left: 15px;
     }
 
     .menu {
-        font-family: $secondaryFont;
+        font-family: $thirdFont;
         font-size: $fontMd;
         font-weight: bold;
-        color: $headLineColor;
+        color: $headLineColor !important;
+        margin-right: 15px;
     }
 }
+
 
 .titulos {
     font-family: $secondaryFont;
     font-size: $fontLg;
     color: $headLineColor;
     font-weight: bold;
+    margin: 10px;
+    padding: 10px;
 }
 
 .subtitulos {
     font-family: $secondaryFont;
     font-size: $fontMd;
-    color: $titleColor;
+    color: $headLineColor;
     font-weight: bold;
+    margin: 5px;
+    padding: 5px;
 }
 
 
@@ -47,10 +55,15 @@ body{
 
 footer {
     display: flex;
-    justify-content: center;
-    font-weight: bold;
+    justify-content: end;
 
     li {
         display: inline;
+
+        .redes {
+            height: 35px;
+            width: 35px;
+            color: $alternativo;
+        }
     }
 }

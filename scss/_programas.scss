@@ -4,6 +4,7 @@
     margin-left: 1px;
     margin-bottom: 20px;
 .program{
+    background-color: $cardColor;
     display: flex;
     justify-content: center;
     border: 1px $alternativo solid;
@@ -11,6 +12,8 @@
         display: inline;
         height: 100px;
         width: 100px;
+        margin-top: 4px;
+        margin-bottom: 5px;
     }
 }
 }

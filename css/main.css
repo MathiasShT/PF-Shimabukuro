@@ -1,54 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
 body {
   overflow-x: hidden;
   box-sizing: border-box;
 }
 
 .fondo {
-  background-color: #B2BABB;
+  background-image: linear-gradient(to left, #5f87a0, #e1eefc);
 }
 
 .navbar {
-  background-color: white;
-  border-bottom: 3px #2471A3;
-  background-image: linear-gradient(to left, #777EB0, white);
+  border-bottom: 1px black solid;
+  background-image: linear-gradient(to left, #5f87a0, #e1eefc);
 }
 .navbar .botoNav {
   border: 1px;
   padding: 5px;
 }
 .navbar .logo {
-  height: 130px;
-  width: 280px;
+  height: 70px;
+  width: 190px;
+  margin-left: 15px;
 }
 .navbar .menu {
-  font-family: "Gill Sans", sans-serif;
-  font-size: 25px;
+  font-family: "Mooli", sans-serif;
+  font-size: 20px;
   font-weight: bold;
-  color: #020B47;
+  color: #17608b !important;
+  margin-right: 15px;
 }
 
 .titulos {
   font-family: "Gill Sans", sans-serif;
-  font-size: 40px;
-  color: #020B47;
+  font-size: 30px;
+  color: #17608b;
   font-weight: bold;
+  margin: 10px;
+  padding: 10px;
 }
 
 .subtitulos {
   font-family: "Gill Sans", sans-serif;
-  font-size: 25px;
-  color: #1C2833;
+  font-size: 20px;
+  color: #17608b;
   font-weight: bold;
+  margin: 5px;
+  padding: 5px;
 }
 
 footer {
   display: flex;
-  justify-content: center;
-  font-weight: bold;
+  justify-content: end;
 }
 footer li {
   display: inline;
+}
+footer li .redes {
+  height: 35px;
+  width: 35px;
+  color: rgb(25, 25, 112);
 }
 
 .principal {
@@ -82,6 +92,7 @@ footer li {
   margin-bottom: 20px;
 }
 .deportes .program {
+  background-color: #8eacc2;
   display: flex;
   justify-content: center;
   border: 1px rgb(25, 25, 112) solid;
@@ -90,6 +101,8 @@ footer li {
   display: inline;
   height: 100px;
   width: 100px;
+  margin-top: 4px;
+  margin-bottom: 5px;
 }
 
 .productos {
@@ -103,6 +116,7 @@ footer li {
   margin: 2px;
   border: 1px rgb(25, 25, 112) solid;
   border-radius: 2px;
+  background-color: #8eacc2;
 }
 .productos .product .ropas {
   height: 200px;
