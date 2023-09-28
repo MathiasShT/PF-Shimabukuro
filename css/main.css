@@ -3,6 +3,7 @@
 body {
   overflow-x: hidden;
   box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
 }
 
 .fondo {
@@ -22,6 +23,9 @@ body {
   width: 190px;
   margin-left: 15px;
 }
+.navbar .logo:hover {
+  transform: scale(1.05);
+}
 .navbar .menu {
   font-family: "Mooli", sans-serif;
   font-size: 20px;
@@ -31,7 +35,7 @@ body {
 }
 
 .titulos {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Mooli", sans-serif;
   font-size: 30px;
   color: #17608b;
   font-weight: bold;
@@ -40,7 +44,7 @@ body {
 }
 
 .subtitulos {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Mooli", sans-serif;
   font-size: 20px;
   color: #17608b;
   font-weight: bold;
@@ -51,6 +55,7 @@ body {
 footer {
   display: flex;
   justify-content: end;
+  margin-right: 30px;
 }
 footer li {
   display: inline;
@@ -62,11 +67,19 @@ footer li .redes {
 }
 
 .principal {
-  margin-bottom: 75px;
-  padding-bottom: 75px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 150px;
 }
 .principal .testim {
   border: 1px rgb(25, 25, 112) solid;
+  background-color: #8eacc2;
+}
+.principal .testim .tarjeta {
+  margin-right: 0px;
+}
+.principal .testim .tarjeta .cuerpo {
+  margin-right: 5px;
 }
 .principal .testim .rostro {
   display: inline;
@@ -81,15 +94,17 @@ footer li .redes {
 }
 
 .texto {
-  margin-bottom: 90px;
-  padding-bottom: 90px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 150px;
+  margin-bottom: 249px;
 }
 
 .deportes {
   display: flex;
   justify-content: center;
-  margin-left: 1px;
-  margin-bottom: 20px;
+  margin-left: 2px;
+  margin-bottom: 10px;
 }
 .deportes .program {
   background-color: #8eacc2;
@@ -101,15 +116,19 @@ footer li .redes {
   display: inline;
   height: 100px;
   width: 100px;
-  margin-top: 4px;
-  margin-bottom: 5px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+.deportes .program .card-body {
+  padding: 5px;
 }
 
 .productos {
   display: flex;
   justify-content: center;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 150px;
   margin-bottom: 25px;
 }
 .productos .product {
@@ -130,7 +149,7 @@ footer li .redes {
   align-content: flex-end;
 }
 .productos .product .tarjCompra .card-text {
-  max-height: 3.6em;
+  height: 3.6em;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -141,22 +160,24 @@ footer li .redes {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  color: #2471A3;
-  background-color: black;
+  color: white;
+  background-color: #1C2833;
 }
 .productos .product .btn:hover {
-  transform: scale(1.1);
+  background-color: #225885;
 }
 
 @media screen and (min-width: 992px) {
   .contacto {
     display: grid;
     grid-template-rows: 10% 10% 60% 10%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     justify-content: space-evenly;
     grid-template-areas: "titCont titCont" "ubicacion consultas" "mapa formulario" "mapa formulario" "direccion formulario";
-    margin-bottom: 3px;
-    padding-bottom: 3px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 150px;
+    margin-bottom: 20px;
   }
   .contacto h1 {
     grid-area: titCont;
@@ -174,6 +195,8 @@ footer li .redes {
   }
   .contacto .direccion {
     grid-area: direccion;
+    margin-top: 0;
+    padding-bottom: 0px;
   }
   .contacto .consultas {
     grid-area: consultas;
@@ -190,6 +213,19 @@ footer li .redes {
     display: grid;
     grid-template-columns: 100%;
   }
+}
+.error {
+  background-image: url("../img/maraton.webp");
+  background-size: cover;
+}
+.error .imagen {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.error .imagen .reloj {
+  height: 200px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */

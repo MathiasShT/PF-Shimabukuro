@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     box-sizing: border-box;
+    font-family: $mainFont;
 }
 
 .fondo {
@@ -21,19 +22,23 @@ body {
         width: 190px;
         margin-left: 15px;
     }
+    .logo:hover {
+        transform: scale(1.05);
+    }
 
     .menu {
-        font-family: $thirdFont;
+        font-family: $mainFont;
         font-size: $fontMd;
         font-weight: bold;
         color: $headLineColor !important;
         margin-right: 15px;
     }
+    
 }
 
 
 .titulos {
-    font-family: $secondaryFont;
+    font-family: $mainFont;
     font-size: $fontLg;
     color: $headLineColor;
     font-weight: bold;
@@ -42,7 +47,7 @@ body {
 }
 
 .subtitulos {
-    font-family: $secondaryFont;
+    font-family: $mainFont;
     font-size: $fontMd;
     color: $headLineColor;
     font-weight: bold;
@@ -56,6 +61,7 @@ body {
 footer {
     display: flex;
     justify-content: end;
+    margin-right: 30px;
 
     li {
         display: inline;

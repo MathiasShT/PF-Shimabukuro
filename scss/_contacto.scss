@@ -1,9 +1,10 @@
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px)
+{
 .contacto{
     display: grid;
     grid-template-rows: 10% 10% 60% 10%;
-    grid-template-columns: 50% 50%;  
+    grid-template-columns: 40% 60%;  
     justify-content: space-evenly;  
     grid-template-areas: 
     "titCont titCont"
@@ -25,9 +26,12 @@
         margin-bottom: 0;
         padding-bottom: 0;
         justify-self: start;
+
     }
     .direccion{
         grid-area: direccion;
+        margin-top: 0;
+        padding-bottom: 0px;
     }
         .consultas{
             grid-area: consultas;
@@ -37,9 +41,12 @@
         grid-area: formulario;
         display: inline;
         justify-self: start;
+    
     }
-    margin-bottom: 3px;
-    padding-bottom: 3px;
+    
+    @include margenes;
+    margin-bottom: 20px;
+
 
 }
 }

@@ -1,8 +1,7 @@
 .productos{
     display: flex;
     justify-content: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    @include margenes;
     margin-bottom: 25px;
     .product{
         margin: 2px;
@@ -20,7 +19,7 @@
             flex-wrap: wrap;
             align-content: flex-end;
             .card-text{
-                max-height: 3.6em;
+                height: 3.6em;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 display: -webkit-box;
@@ -32,12 +31,11 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            color: $secondaryColor;
-            background-color: $black;
-            
+            color: $white;
+            background-color: $titleColor;            
         }
         .btn:hover{
-            transform: scale(1.1);
+            background-color: #225885 ;
         }
     }
 }

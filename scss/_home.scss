@@ -1,9 +1,14 @@
 .principal {
-    margin-bottom: 75px;
-    padding-bottom: 75px;
-
+    @include margenes;
     .testim {
         border: 1px $alternativo solid;
+        background-color: $cardColor;
+        .tarjeta {
+            margin-right: 0px;
+        .cuerpo {
+            margin-right: 5px;
+        }
+        }
         .rostro {
             display: inline;
             display: flex;
