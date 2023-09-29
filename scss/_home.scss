@@ -1,5 +1,5 @@
 .principal {
-    @include margenes;
+    @include principal;
     .testim {
         border: 1px $alternativo solid;
         background-color: $cardColor;

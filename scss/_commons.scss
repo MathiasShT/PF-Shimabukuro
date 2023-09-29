@@ -22,6 +22,7 @@ body {
         width: 190px;
         margin-left: 15px;
     }
+
     .logo:hover {
         transform: scale(1.05);
     }
@@ -33,30 +34,25 @@ body {
         color: $headLineColor !important;
         margin-right: 15px;
     }
-    
-}
 
+}
 
 .titulos {
     font-family: $mainFont;
     font-size: $fontLg;
     color: $headLineColor;
     font-weight: bold;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px 5px 10px 20px;
 }
 
 .subtitulos {
-    font-family: $mainFont;
-    font-size: $fontMd;
-    color: $headLineColor;
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+    color: #17608b;
     font-weight: bold;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 }
-
-
-
 
 footer {
     display: flex;
@@ -70,6 +66,10 @@ footer {
             height: 35px;
             width: 35px;
             color: $alternativo;
+
+            .redes:hover {
+                transform: scale(1.05);
+            }
         }
     }
 }

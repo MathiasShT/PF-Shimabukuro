@@ -3,13 +3,11 @@
 {
 .contacto{
     display: grid;
-    grid-template-rows: 10% 10% 60% 10%;
+    grid-template-rows: 10% 70% 20%;
     grid-template-columns: 40% 60%;  
     justify-content: space-evenly;  
     grid-template-areas: 
-    "titCont titCont"
     "ubicacion consultas"
-    "mapa formulario"
     "mapa formulario"
     "direccion formulario";
         
@@ -19,12 +17,15 @@
         .ubicacion{
             grid-area: ubicacion;
             justify-self: start;
+            margin-left: 0;
+            padding-left: 0;
         }
     .mapa{
         grid-area: mapa;
         display: inline;
         margin-bottom: 0;
         padding-bottom: 0;
+        margin-top: 10px;
         justify-self: start;
 
     }
@@ -34,18 +35,23 @@
         padding-bottom: 0px;
     }
         .consultas{
+           
             grid-area: consultas;
             justify-self: start;
+            margin-left: 0;
+            padding-left: 0;
+
         }
     .formulario{
         grid-area: formulario;
         display: inline;
         justify-self: start;
+        margin-top: 10px;
     
     }
     
-    @include margenes;
-    margin-bottom: 20px;
+    @include principal;
+    margin-bottom: 25px;
 
 
 }

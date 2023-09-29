@@ -39,8 +39,7 @@ body {
   font-size: 30px;
   color: #17608b;
   font-weight: bold;
-  margin: 10px;
-  padding: 10px;
+  margin: 15px 5px 10px 20px;
 }
 
 .subtitulos {
@@ -48,8 +47,8 @@ body {
   font-size: 20px;
   color: #17608b;
   font-weight: bold;
-  margin: 5px;
-  padding: 5px;
+  margin: 10px;
+  padding: 10px;
 }
 
 footer {
@@ -65,23 +64,26 @@ footer li .redes {
   width: 35px;
   color: rgb(25, 25, 112);
 }
+footer li .redes .redes:hover {
+  transform: scale(1.05);
+}
 
-.principal {
+.principal, .texto {
   margin-left: 25px;
   margin-right: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 165px;
 }
-.principal .testim {
+.principal .testim, .texto .testim {
   border: 1px rgb(25, 25, 112) solid;
   background-color: #8eacc2;
 }
-.principal .testim .tarjeta {
+.principal .testim .tarjeta, .texto .testim .tarjeta {
   margin-right: 0px;
 }
-.principal .testim .tarjeta .cuerpo {
+.principal .testim .tarjeta .cuerpo, .texto .testim .tarjeta .cuerpo {
   margin-right: 5px;
 }
-.principal .testim .rostro {
+.principal .testim .rostro, .texto .testim .rostro {
   display: inline;
   display: flex;
   align-items: center;
@@ -94,17 +96,14 @@ footer li .redes {
 }
 
 .texto {
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 150px;
-  margin-bottom: 249px;
+  margin-bottom: 15px;
 }
 
 .deportes {
   display: flex;
   justify-content: center;
   margin-left: 2px;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 .deportes .program {
   background-color: #8eacc2;
@@ -128,7 +127,7 @@ footer li .redes {
   justify-content: center;
   margin-left: 25px;
   margin-right: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 165px;
   margin-bottom: 25px;
 }
 .productos .product {
@@ -170,14 +169,14 @@ footer li .redes {
 @media screen and (min-width: 992px) {
   .contacto {
     display: grid;
-    grid-template-rows: 10% 10% 60% 10%;
+    grid-template-rows: 10% 70% 20%;
     grid-template-columns: 40% 60%;
     justify-content: space-evenly;
-    grid-template-areas: "titCont titCont" "ubicacion consultas" "mapa formulario" "mapa formulario" "direccion formulario";
+    grid-template-areas: "ubicacion consultas" "mapa formulario" "direccion formulario";
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 165px;
+    margin-bottom: 25px;
   }
   .contacto h1 {
     grid-area: titCont;
@@ -185,12 +184,15 @@ footer li .redes {
   .contacto .ubicacion {
     grid-area: ubicacion;
     justify-self: start;
+    margin-left: 0;
+    padding-left: 0;
   }
   .contacto .mapa {
     grid-area: mapa;
     display: inline;
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-top: 10px;
     justify-self: start;
   }
   .contacto .direccion {
@@ -201,11 +203,14 @@ footer li .redes {
   .contacto .consultas {
     grid-area: consultas;
     justify-self: start;
+    margin-left: 0;
+    padding-left: 0;
   }
   .contacto .formulario {
     grid-area: formulario;
     display: inline;
     justify-self: start;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width) {

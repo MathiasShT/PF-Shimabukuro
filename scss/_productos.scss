@@ -1,7 +1,7 @@
 .productos{
     display: flex;
     justify-content: center;
-    @include margenes;
+    @include principal;
     margin-bottom: 25px;
     .product{
         margin: 2px;

@@ -1,4 +1,4 @@
 .texto {
-    @include margenes;
-    margin-bottom: 249px;
+    @extend .principal;
+    margin-bottom: 15px;
     }
