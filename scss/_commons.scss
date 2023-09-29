@@ -62,12 +62,12 @@ footer {
     li {
         display: inline;
 
-        .redes {
+    .redes {
             height: 35px;
             width: 35px;
             color: $alternativo;
 
-            .redes:hover {
+    .redes:hover {
                 transform: scale(1.05);
             }
         }
